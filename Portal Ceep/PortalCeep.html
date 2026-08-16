@@ -1,0 +1,349 @@
+<html>
+    <html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal CEEP</title>
+
+    <link rel="stylesheet" href="stylepc.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo">
+            <h1>Portal CEEP</h1>
+            <p>Centro Estadual de Educação Profissional Régis Pacheco</p>
+            <p>Jequié - Bahia</p>
+        </div>
+
+        <nav>
+            <ul>
+
+                <li><a href="#inicio">Início</a></li>
+
+                <li><a href="#eventos">Eventos</a></li>
+
+                <li><a href="#servicos">Serviços</a></li>
+
+                <li><a href="#cursos">Cursos</a></li>
+
+            </ul>
+        </nav>
+
+    </header>
+
+    <div class="faixa-vermelha"></div>
+
+
+    <section class="banner">
+
+        <h2>Bem-vindo ao Portal CEEP</h2>
+
+        <p>
+            Um portal desenvolvido para facilitar o acesso às informações
+            do Centro Estadual de Educação Profissional Régis Pacheco.
+        </p>
+
+        <a href="#cursos" class="botao">Conheça nossos cursos</a>
+
+    </section>
+
+
+    <section id="inicio">
+
+        <h2>Início</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Vídeos</h3>
+
+                <p>
+                    Espaço destinado à divulgação de vídeos institucionais,
+                    aulas, projetos e apresentações da escola.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Notícias</h3>
+
+                <p>
+                    Informações sobre atividades, comunicados, conquistas,
+                    projetos e novidades do CEEP.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>História do Colégio</h3>
+
+                <p>
+                 No início, O colégio foi oficialmente criado por lei em 14 de dezembro de 1948 com o nome de Ginásio Público Régis Pacheco.
+                Ele homenageava o então governador do estado, Régis Pacheco. Após a estruturação de seu prédio físico, as atividades começaram de fato com a aula inaugural em 19 de março de 1952. 
+                Com a grande demanda regional, o colégio implantou o Curso Normal para formar as primeiras professoras da cidade e do interior baiano, expandindo-se para cursos clássicos e científicos. 
+                Em 1960, consolidado como o maior polo formador de Jequié, a instituição passou a se chamar oficialmente Instituto de Educação Régis Pacheco (IERP). 
+                O IERP virou sinônimo de excelência pedagógica. Marcou a vida cultural da cidade com a sua tradicional Banda Marcial e seus desfiles cívicos. 
+                Anos mais tarde, acompanhando a nova política de Educação Profissional do Estado da Bahia, o antigo instituto abandonou o formato tradicional de Ensino Médio regular para focar na formação de mão de obra qualificada. 
+                A escola mudou de nome e passou a se chamar CEEP Régis Pacheco (Centro Estadual de Educação Profissional em Gestão e Meio Ambiente Régis Pacheco).
+                 Atualmente, a instituição oferece cursos técnicos integrados e subsequentes voltados às demandas econômicas locais.
+
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Endereço</h3>
+
+                <p>
+                    R. Quinze de Novembro,
+                    Campo do América, 
+                    Jequié - BA
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Contatos</h3>
+
+                <p>
+                     (73) 3525-1341 </p>
+
+                <p> ceepregispacheco@gmail.com </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="eventos">
+
+        <h2>Eventos</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>FETEC</h3>
+
+                <p>
+                    Feira de Tecnologia, Ciência e Inovação desenvolvida pelos estudantes do CEEP, 
+                    contendo uma exposição de projetos realizados pelos cursos técnicos.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Jogos Internos</h3>
+
+                <p>
+                    As competições internas movimentavam o calendário escolar, unindo alunos de diferentes séries em modalidades como futsal, 
+                    vôlei e handebol.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>FACE</h3>
+
+                <p>
+                    Festival Anual da Canção Estudantil é um projeto estruturante da rede estadual de ensino da Bahia voltado para a música.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="servicos">
+
+        <h2>Serviços</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Atendimento ao Estudante</h3>
+
+                <p>
+                    Informações gerais sobre matrícula, documentação
+                    e calendário escolar.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Orientações</h3>
+
+                <p>
+                    Esclarecimento de dúvidas frequentes dos estudantes
+                    e responsáveis.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Suporte</h3>
+
+                <p>
+                    Canal para solicitação de ajuda e informações.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="cursos">
+
+        <h2>Cursos Técnicos</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Informática</h3>
+
+    <!-- Grade e Ementas Curricular -->
+    <button class="botao" onclick="mostrarGradeeEmentasCurricularInformática()">
+       Grade e Ementas Curricular
+    </button>
+
+    <div id="ementas-informatica" style="display: none; margin-top: 15px;">
+
+        <a href="pdfs/informatica-ementa-eptnm.pdf" target="_blank" class="botao modalidade">
+            EPTNM
+        </a>
+
+        <br><br>
+
+        <a href="pdfs/informatica-ementa-proeja.pdf" target="_blank" class="botao modalidade">
+            PROEJA
+        </a>
+
+        <br><br>
+
+        <a href="ementa-prosub-inf.pdf" target="_blank" class="botao modalidade">
+            PROSUB
+        </a>
+
+    </div>
+
+    <!-- Matrículas -->
+    <a href="matricula.html" class="botao">
+        Matrículas
+    </a>
+ 
+            </div>
+
+            <div class="card">
+                <h3>Administração</h3>
+
+                 <a href="grade-adm.html" class="botao">Grade Curricular</a>
+                 <a href="ementa-adm.html" class="botao">Ementas</a>
+                 <a href="matricula.html" class="botao">Matrículas</a>
+            </div>
+
+            <div class="card">
+                <h3>Gastronomia</h3>
+
+                <p>
+                 <a href="grade-adm.html" class="botao">Grade Curricular</a>
+                 <a href="ementa-adm.html" class="botao">Ementas</a>
+                 <a href="matricula.html" class="botao">Matrículas</a>
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Edificação</h3>
+
+                <p>
+                <a href="grade-adm.html" class="botao">Grade Curricular</a>
+                 <a href="ementa-adm.html" class="botao">Ementas</a>
+                 <a href="matricula.html" class="botao">Matrículas</a>
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Segurança do Trabalho</h3>
+
+                <p>
+                <a href="grade-adm.html" class="botao">Grade Curricular</a>
+                <a href="ementa-adm.html" class="botao">Ementas</a>
+                <a href="matricula.html" class="botao">Matrículas</a>
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Marketing</h3>
+
+                <p>
+                <a href="grade-adm.html" class="botao">Grade Curricular</a>
+                <a href="ementa-adm.html" class="botao">Ementas</a>
+                <a href="matricula.html" class="botao">Matrículas</a>
+
+                </p>
+            </div>
+            
+            <div class="card">
+                <h3> Recursos Humanos</h3>
+
+                <p>
+
+                <a href="grade-adm.html" class="botao">Grade Curricular</a>
+                <a href="ementa-adm.html" class="botao">Ementas</a>
+                <a href="matricula.html" class="botao">Matrículas</a>
+
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <h3>Portal CEEP</h3>
+
+        <p>
+            Centro Estadual de Educação Profissional Régis Pacheco
+        </p>
+
+        <p>
+            Jequié - Bahia
+        </p>
+
+        <p>
+            Projeto desenvolvido para apresentação na FETEC.
+        </p>
+
+    </footer>
+
+    <script>
+
+function mostrarGradeInformática() {
+
+    var grade = document.getElementById("grade-informatica");
+
+    if (grade.style.display === "none") {
+        grade.style.display = "block";
+    } else {
+        grade.style.display = "none";
+    }
+
+}
+
+
+function mostrarGradeeEmentasCurricularInformática() {
+
+    var ementas = document.getElementById("ementas-informatica");
+
+    if (ementas.style.display === "none") {
+        ementas.style.display = "block";
+    } else {
+        ementas.style.display = "none";
+    }
+
+}
+
+</script>
+
+</body>
+
+</html>
+
