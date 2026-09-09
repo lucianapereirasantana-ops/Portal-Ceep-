@@ -71,18 +71,21 @@ nav a.ativo {
 .banner {
     margin-top: 95px;
     height: 500px;
-    background: linear-gradient(rgba(11,44,107,.45), rgba(11,44,107,.45)), 
-    url("ceep.jpeg");
-    opacity: 0.8;
-    
+
+    background-image: linear-gradient(
+            rgba(11, 44, 107, 0.33),
+            rgba(11, 44, 107, 0.33)
+        ),
+    url("../img/ceep.jpeg");
+
     background-size: cover;
     background-position: center;
-    
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
     text-align: center;
     color: white;
     padding: 30px;
@@ -106,7 +109,6 @@ section {
 
 section:not(.banner):nth-child(even){
     background:#f5f7fb;
-}
 }
 
 section h2 {
