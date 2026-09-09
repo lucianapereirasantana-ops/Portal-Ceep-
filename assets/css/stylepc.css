@@ -73,10 +73,12 @@ nav a.ativo {
     height: 500px;
 
     background-image: linear-gradient(
-            rgba(11, 44, 107, 0.33),
-            rgba(11, 44, 107, 0.33)
+            rgba(10, 40, 100, 0.55),
+            rgba(10, 40, 100, 0.55)
+            
         ),
     url("../img/ceep.jpeg");
+    
 
     background-size: cover;
     background-position: center;
