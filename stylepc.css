@@ -159,12 +159,13 @@ section h2::after {
 
 /* Imagens das Notícias */
 .imagem-noticia {
-    width: 100%;
-    height: 180px;
-    object-fit: contain;
-    border-radius: 10px;
-    margin-bottom: 15px;
+    width: 100%;           /* Ocupa toda a largura disponível do card */
+    height: auto;          /* Deixa a altura se ajustar proporcionalmente */
+    display: block;        /* Remove espaços indesejados abaixo da imagem */
+    border-radius: 10px;  /* Mantém as bordas arredondadas */
+    margin-top: 15px; ;
 }
+
 
 /* Botões Genericos */
 .botao {
