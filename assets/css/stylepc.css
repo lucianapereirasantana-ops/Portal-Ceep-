@@ -169,7 +169,22 @@ section h2::after {
     border-radius: 10px;  /* Mantém as bordas arredondadas */
     margin-top: 15px; ;
 }
+/* Fotos dos eventos */
+.fotos-evento {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
 
+.fotos-evento img {
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+    display: block;
+    border-radius: 8px;
+    cursor: pointer;
+}
 
 /* Botões Genericos */
 .botao {
